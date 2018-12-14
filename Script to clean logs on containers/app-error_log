@@ -1,0 +1,14 @@
+/apps/logs/web/current/error_log {
+  daily
+  missingok
+  rotate 0
+  compress
+  dateext
+  dateformat -%Y%m%d
+  copytruncate
+  su root root  
+postrotate
+    /sbin/clean-archive.sh    
+endscript
+}
+
