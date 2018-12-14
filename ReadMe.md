@@ -3,7 +3,7 @@
 
 ## Script to clean logs on cointainers
 
-####script to clean archive logs:
+#script to clean archive logs:
 
 1. Copy script `clean-archive.sh`  to /sbin
 2. change permission to file: 
